@@ -17,14 +17,14 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="header-content container">
+        <div class="header-content container" id="Inicio">
             <div class="header-txt">   
                 <h1>Medical Center</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -41,7 +41,7 @@
         </div>
     </header>
 
-    <section class="about container">
+    <section class="about container" id="Nosotros">
         <div class="about-img">
             <img src="imagenes/about.png" alt="">
         </div>
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <main class="servicios">
+    <main class="servicios" id="Servicios">
         <h2>servicios</h2>
         <div class="servicios-content container">
             <div class="servicio-1">
@@ -84,7 +84,7 @@
         </div>
     </main>
 
-    <section class="formulario container">
+    <section class="formulario container" id="Contacto">
         <form method="post" autocomplete="off">
             <h2>Agenda consulta</h2>
 
@@ -134,7 +134,7 @@
 
     <script>
         function myFunction(){
-            window.location.href="http://localhost/pagina"
+            window.location.href="http://axelcorrea.kesug.com/?i=1"
         }
     </script>
 </body>
